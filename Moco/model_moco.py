@@ -20,8 +20,7 @@ class CIFAR10Pair(CIFAR10):
 
         return im_1, im_2
 
-# SplitBatchNorm: simulate multi-gpu behavior of BatchNorm in one gpu by splitting alone the batch dimension
-# implementation adapted from https://github.com/davidcpage/cifar10-fast/blob/master/torch_backend.py
+# SplitBatchNorm: implementation adapted from https://github.com/davidcpage/cifar10-fast/blob/master/torch_backend.py
 class SplitBatchNorm(nn.BatchNorm2d):
     def __init__(self, num_features, num_splits, **kw):
         super().__init__(num_features, **kw)
