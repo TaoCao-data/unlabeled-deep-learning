@@ -15,12 +15,17 @@ Our project is based on CIFAR-10 data.
 
 ### Train and Experiments for MixMatch  
 #### Train
-Run code "train_MixMatch.py" for the results.
-The defaulf numnber of epochs is 10 to reduce computing time.  
+Run code "train_MixMatch.py" for the results.  
+The default number of epochs is 10 to reduce computing time.  
 The original implementation uses 1,024 epochs.
 
 #### Experiments  
-
+Run code:  
+"train_MixMatch_T1.py" for T=1  
+"train_MixMatch_k1.py" for K=1  
+"train_MixMatch_k3.py" for K=3  
+"train_MixMatch_k4.py" for K=4  
+"train_MixMatch_noMixUp.py" for w/o MixUp    
 
 ## Results (Accuracy)
 | #Labels | 250 | 500 | 1000 | 2000| 4000 |
