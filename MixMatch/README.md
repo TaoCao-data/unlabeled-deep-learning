@@ -1,6 +1,7 @@
 # MixMatch
-This is an unofficial PyTorch implementation of [MixMatch: A Holistic Approach to Semi-Supervised Learning](https://arxiv.org/abs/1905.02249). 
-The official Tensorflow implementation is [here](https://github.com/google-research/mixmatch).
+This is a re-implementation of [MixMatch: A Holistic Approach to Semi-Supervised Learning](https://arxiv.org/abs/1905.02249) for class project in CS7643 Deep Learning.  
+We referenced to the official Tensorflow implementation (https://github.com/google-research/mixmatch), an unofficial PyTorch implementation (https://github.com/YU1ut/MixMatch-pytorch) for the re-implementation of MixMatch.  
+For the experiments with ResNet-32 and Pseudo Label, we referenced to (https://github.com/akamaster/pytorch_resnet_cifar10) and (https://github.com/perrying/realistic-ssl-evaluation-pytorch).
 
 Now only experiments on CIFAR-10 are available.
 
