@@ -13,7 +13,7 @@ Our project is based on CIFAR-10 data.
 
 ## Usage
 
-### Train and Experiments for MixMatch  
+### Train and Experiments for MixMatch and Benchmark  
 #### Train
 Run code "train_MixMatch.py" for the results.  
 The default number of epochs is 10 to reduce computing time.  
@@ -28,9 +28,9 @@ Run code:
 "train_MixMatch_noMixUp.py" for w/o MixUp   
 
 #### Benchmark
-Run code "train_resnet.py" for the results of supervised model 
+Run code "train_resnet.py" for the results of supervised model.   
 The default number of epochs is 50 to reduce computing time.  
-Run code "train_pl.py" for the results of pseudo label model
+Run code "train_pl.py" for the results of pseudo label model.  
 
 ## Results (Accuracy)
 | #Labels | 250 | 500 | 1000 | 2000| 4000 |
