@@ -31,9 +31,9 @@ Run code:
 | #Labels | 250 | 500 | 1000 | 2000| 4000 |
 |:---|:---:|:---:|:---:|:---:|:---:|
 |Paper | 88.92 ± 0.87 | 90.35 ± 0.94 | 92.25 ± 0.32| 92.97 ± 0.15 |93.76 ± 0.06|
-|This code | 88.71 | 88.96 | 90.52 | 92.23 | 93.52 |
+|This code | 75 | 82 | 86 | 89 | 91 |
 
-(Results of this code were evaluated on 1 run. Results of 5 runs with different seeds will be updated later. )
+The results are based on 100 epochs, while the results in the paper are based on 1,024 epochs.  
 
 ## References
 ```
