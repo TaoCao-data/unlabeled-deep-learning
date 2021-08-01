@@ -30,7 +30,7 @@ Run code:
 #### Benchmark
 Run code "train_resnet.py" for the results of supervised model.   
 The default number of epochs is 50 to reduce computing time.  
-Run code "train_pl.py" for the results of pseudo label model.  
+Run code "build_dataset.py" and "train_pl.py" for the results of pseudo label model.  
 
 ## Results (Accuracy)
 | #Labels | 250 | 500 | 1000 | 2000| 4000 |
