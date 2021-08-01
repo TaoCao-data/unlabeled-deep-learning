@@ -13,23 +13,14 @@ Our project is based on CIFAR-10 data.
 
 ## Usage
 
-### Train
-Train the model by 250 labeled data of CIFAR-10 dataset:
+### Train and Experiments for MixMatch  
+#### Train
+Run code "train_MixMatch.py" for the results.
+The defaulf numnber of epochs is 10 to reduce computing time.  
+The original implementation uses 1,024 epochs.
 
-```
-python train.py --gpu <gpu_id> --n-labeled 250 --out cifar10@250
-```
+#### Experiments  
 
-Train the model by 4000 labeled data of CIFAR-10 dataset:
-
-```
-python train.py --gpu <gpu_id> --n-labeled 4000 --out cifar10@4000
-```
-
-### Monitoring training progress
-```
-tensorboard.sh --port 6006 --logdir cifar10@250
-```
 
 ## Results (Accuracy)
 | #Labels | 250 | 500 | 1000 | 2000| 4000 |
