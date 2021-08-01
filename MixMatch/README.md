@@ -3,10 +3,7 @@ This is a re-implementation of [MixMatch: A Holistic Approach to Semi-Supervised
 We referenced to the official Tensorflow implementation (https://github.com/google-research/mixmatch), an unofficial PyTorch implementation (https://github.com/YU1ut/MixMatch-pytorch) for the re-implementation of MixMatch.  
 For the experiments with ResNet-32 and Pseudo Label, we referenced to (https://github.com/akamaster/pytorch_resnet_cifar10) and (https://github.com/perrying/realistic-ssl-evaluation-pytorch).
 
-Now only experiments on CIFAR-10 are available.
-
-This repository carefully implemented important details of the official implementation to reproduce the results.
-
+Our project is based on CIFAR-10 data.
 
 ## Requirements
 - Python 3.6+
