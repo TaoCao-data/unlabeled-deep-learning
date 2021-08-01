@@ -6,12 +6,9 @@ For the experiments with ResNet-32 and Pseudo Label, we referenced to (https://g
 Our project is based on CIFAR-10 data.
 
 ## Requirements
-- Python 3.6+
-- PyTorch 1.0
-- **torchvision 0.2.2 (older versions are not compatible with this code)** 
-- tensorboardX
-- progress
-- matplotlib
+- Python
+- PyTorch
+- torchvision
 - numpy
 
 ## Usage
