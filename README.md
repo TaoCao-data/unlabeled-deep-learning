@@ -1,3 +1,3 @@
 # dl_team52_unlabel-
 
-Sample text: to be filled and finalized before submission, a readme file including instructions of our project
+Please refer to the Readme file in MixMatch and MoCo respectively.
