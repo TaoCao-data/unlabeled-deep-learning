@@ -105,7 +105,7 @@ class ResNet(nn.Module):
         out = self.fc(out)
         return out
 
-model = ResNet(ResidualBlock, [4, 4, 5]).to(device)
+model = ResNet(ResidualBlock, [5, 5, 5]).to(device)
 
 
 # Loss and optimizer
